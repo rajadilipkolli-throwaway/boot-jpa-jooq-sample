@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-JpaJooqApplication<boot-jpa-jooq-sample>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.learning.JpaJooqApplication",
+            "projectName": "boot-jpa-jooq-sample",
+            "args": "--spring.profiles.active=local",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
